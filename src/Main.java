@@ -35,7 +35,7 @@ public class Main {
         return num < 0;
     }
 
-    public static void exercise4()
+    public static void exercise5()
     {
         System.out.println("Последовательность чисел от 1000 до 0, кратных 3:");
         for (int i = 1000 / 3 * 3; i >= 0; i -= 3)
@@ -71,7 +71,7 @@ public class Main {
             System.out.println("Ваше число положительное или ноль.");
         }
 
-        exercise4();
+        exercise5();
 
     }
 }
